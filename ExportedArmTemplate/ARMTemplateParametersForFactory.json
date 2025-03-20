@@ -6,7 +6,7 @@
             "value": "prod-adf-ci-001"
         },
         "AzureBlobStorage1_connectionString": {
-            "value": ""
+            "value": "${{ secrets.CONNECTION_STRING }}"
         }
     }
 }
