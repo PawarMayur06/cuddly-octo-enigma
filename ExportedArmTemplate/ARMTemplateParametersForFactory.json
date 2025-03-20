@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "factoryName": {
-            "value": "prod-adf-ci-001"
+            "value": "dev-adf-ci-001"
         },
         "AzureBlobStorage1_connectionString": {
-            "value": "${{ secrets.CONNECTION_STRING }}"
+            "value": ""
         }
     }
 }
