@@ -87,3 +87,4 @@ jobs:
           dataFactoryName: ${{ env.target-adf}}
           armTemplateFile: ARMTemplateForFactory.json
           armTemplateParametersFile: ARMTemplateParametersForFactory.json
+          additionalParameters: factoryName=prod-adf-ci-001 AzureBlobStorage1_connectionString=${{ secrets.CONNECTION_STRING }}
