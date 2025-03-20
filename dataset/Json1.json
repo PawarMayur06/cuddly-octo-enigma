@@ -1,0 +1,39 @@
+{
+	"name": "Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "package.json",
+				"container": "test"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"scripts": {
+					"type": "object",
+					"properties": {
+						"build": {
+							"type": "string"
+						}
+					}
+				},
+				"dependencies": {
+					"type": "object",
+					"properties": {
+						"@microsoft/azure-data-factory-utilities": {
+							"type": "string"
+						}
+					}
+				}
+			}
+		}
+	}
+}
