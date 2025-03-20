@@ -2,7 +2,7 @@ name: DEV ADF to PROD ADF
 on:
   workflow_dispatch:
 env:
-  rg-name: "pactiv-demo"
+  rg-name: "mayurr-rg"
   adf-name: "dev-adf-ci-001"
   target-adf: "prod-adf-ci-001"
   
